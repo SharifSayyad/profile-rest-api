@@ -4,7 +4,7 @@ import os
 import sys
 print('inside mange.py')
 def abc():
-    pass
+    print('inside function')
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'profiles_project.settings')
